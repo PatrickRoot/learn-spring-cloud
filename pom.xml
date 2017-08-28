@@ -8,8 +8,4 @@
     <artifactId>learn-spring-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <modules>
-        <module>learn-sc-server</module>
-        <module>learn-sc-service01</module>
-    </modules>
 </project>

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: learn-sc-service01
+server:
+  port: 8101
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/

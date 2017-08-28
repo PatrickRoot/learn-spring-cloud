@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: learn-sc-service-feign
+server:
+  port: 8301
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/

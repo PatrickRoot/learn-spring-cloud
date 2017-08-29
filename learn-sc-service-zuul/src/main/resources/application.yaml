@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: learn-sc-service-zuul
+server:
+  port: 8401
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: learn-sc-service-ribbon
+    api-b:
+      path: /api-b/**
+      serviceId: learn-sc-service-feign

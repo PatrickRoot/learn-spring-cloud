@@ -11,4 +11,4 @@ spring:
 #          username:公开仓库不需要用户名
 #          password:公开仓库不需要密码
 server:
-  port: 8888
+  port: 8500

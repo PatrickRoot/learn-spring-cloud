@@ -1,6 +1,6 @@
 spring:
   application:
-    name: learn-sc-service01
+    name: learn-sc-service
 server:
   port: 8100
 eureka:

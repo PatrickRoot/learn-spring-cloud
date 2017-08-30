@@ -1,0 +1,18 @@
+#spring:
+#  cloud:
+#    config:
+#      uri: http://localhost:8500/
+spring:
+  application:
+    name: learn-sc-config-client
+  cloud:
+    config:
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
+        service-id: learn-sc-config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8700/eureka/

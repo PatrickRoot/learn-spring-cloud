@@ -1,0 +1,7 @@
+spring:
+  zipkin:
+    base-url: http://localhost:8800
+  application:
+    name: learn-sc-service03
+server:
+  port: 8103

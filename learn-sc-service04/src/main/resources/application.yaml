@@ -1,0 +1,7 @@
+spring:
+  zipkin:
+    base-url: http://localhost:8800
+  application:
+    name: learn-sc-service04
+server:
+  port: 8104

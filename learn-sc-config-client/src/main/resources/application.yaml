@@ -1,9 +1,17 @@
-spring:
+﻿spring:
   application:
     name: learn-sc-config-client
   cloud:
     config:
       label: master
       profile: dev
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+management:
+  security:
+    enabled: false
 server:
   port: 8600
